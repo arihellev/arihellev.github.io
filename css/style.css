@@ -1,0 +1,157 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-image: url("https://64.media.tumblr.com/3595220382818394f62d84319c8995b8/tumblr_p6f5mdOscq1xormwyo2_250.png");
+  margin: 1em;
+}
+
+div {
+  
+  height:500px;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #000000;
+}
+
+.swap-on-hover1 {
+  position: relative;	
+	margin:   auto;
+	max-width: 500px;
+}
+
+.swap-on-hover1 img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+
+.swap-on-hover1 .swap-on-hover__front-image1 {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover1:hover > .swap-on-hover__front-image1{
+  opacity: 0;
+}
+
+
+.swap-on-hover2 {
+  position: relative;	
+	margin:   auto;
+	max-width: 500px;
+}
+
+.swap-on-hover2 img {
+  position: absolute;
+  top: 1;
+  left: 1;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+
+.swap-on-hover2 .swap-on-hover__front-image2 {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover2:hover > .swap-on-hover__front-image2{
+  opacity: 0;
+}
+
+
+.swap-on-hover3 {
+  position: relative;	
+	margin:   auto;
+	max-width: 500px;
+}
+
+.swap-on-hover3 img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+
+.swap-on-hover3 .swap-on-hover__front-image3 {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover3:hover > .swap-on-hover__front-image3{
+  opacity: 0;
+}
+
+
+.swap-on-hover4 {
+  position: relative;	
+	margin:   auto;
+	max-width: 500px;
+}
+
+.swap-on-hover4 img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+
+.swap-on-hover4 .swap-on-hover__front-image4 {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover4:hover > .swap-on-hover__front-image4{
+  opacity: 0;
+}
+
+
+.swap-on-hover5 {
+  position: relative;	
+	margin:   auto;
+	max-width: 500px;
+}
+
+.swap-on-hover5 img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+
+.swap-on-hover5 .swap-on-hover__front-image5 {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+
+.swap-on-hover5:hover > .swap-on-hover__front-image5{
+  opacity: 0;
+}
