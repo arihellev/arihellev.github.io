@@ -1,4 +1,4 @@
-/* CSS files add styling rules to your content */
+
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -15,6 +15,15 @@ div {
 h1 {
   font-style: italic;
   color: #000000;
+}
+
+h2 {
+  padding-left: 400px;
+  align: right;
+  font-style: italic;
+}
+a {
+  color: #b3dbff;
 }
 
 .swap-on-hover1 {
@@ -44,7 +53,7 @@ h1 {
   opacity: 0;
 }
 
-
+--
 .swap-on-hover2 {
   position: relative;	
 	margin:   auto;
@@ -72,6 +81,7 @@ h1 {
   opacity: 0;
 }
 
+--
 
 .swap-on-hover3 {
   position: relative;	
@@ -99,7 +109,7 @@ h1 {
 .swap-on-hover3:hover > .swap-on-hover__front-image3{
   opacity: 0;
 }
-
+--
 
 .swap-on-hover4 {
   position: relative;	
@@ -128,7 +138,7 @@ h1 {
   opacity: 0;
 }
 
-
+--
 .swap-on-hover5 {
   position: relative;	
 	margin:   auto;
@@ -155,3 +165,4 @@ h1 {
 .swap-on-hover5:hover > .swap-on-hover__front-image5{
   opacity: 0;
 }
+--
