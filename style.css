@@ -23,14 +23,15 @@ h1 {
 h2 {
   padding-left: 20px;
   align: left;
+  color: #b3dbff;
   
 }
 
 a {
   background-color: white;
   font-family: 'Montserrat Alternates', sans-serif;
-  color: #b3dbff;
   cursor: pointer;
+  color: #b3dbff;
 }
 
 .blond_player{
