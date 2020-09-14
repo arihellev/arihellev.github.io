@@ -1,0 +1,204 @@
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-image: url("https://64.media.tumblr.com/3595220382818394f62d84319c8995b8/tumblr_p6f5mdOscq1xormwyo2_250.png");
+  margin: 1em;
+  
+}
+
+div {
+  height:500px; 
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  padding-left: 40px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: #000000;
+  cursor: auto;
+}
+
+h2 {
+  padding-left: 20px;
+  align: left;
+  
+}
+
+a {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #b3dbff;
+  cursor: pointer;
+}
+
+.blond_player{
+  display: inline-block;
+  position: relative;
+  padding-left: 500px;
+}
+
+.blond-album {
+  position: relative;	
+	margin:   right;
+	max-width: 450px; 
+}
+
+
+.blond-album img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+}
+
+
+.blond-album .blond-album_front {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: crosshair;
+}
+
+
+.blond-album:hover > .blond-album_front{
+  opacity: 0;
+}
+
+--
+.okcomputer-album {
+  position: relative;	
+	margin:   auto;
+	max-width: 450px;
+}
+
+.okcomputer_player{
+  position: relative;
+  padding-left: 500px;
+}
+
+.okcomputer-album img {
+  position: absolute;
+  top: 1;
+  left: 1;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+}
+
+
+.okcomputer-album .okcomputer-album_front {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: crosshair;
+}
+
+
+.okcomputer-album:hover > .okcomputer-album_front{
+  opacity: 0;
+}
+
+--
+
+.ctrl-album{
+  position: relative;	
+	margin:   auto;
+	max-width: 450px;
+}
+
+.ctrl_player{
+  display: inline-block;
+  position: relative;
+  padding-left: 500px;
+}
+
+.ctrl-album img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+}
+
+
+.ctrl-album .ctrl-album_front {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: crosshair;
+}
+
+
+.ctrl-album:hover > .ctrl-album_front {
+  opacity: 0;
+}
+--
+
+.clarity-album {
+  position: relative;	
+	margin:   auto;
+	max-width: 450px;
+}
+
+.clarity_player{
+  display: inline-block;
+  position: relative;
+  padding-left: 500px;
+}
+
+.clarity-album img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+}
+
+
+.clarity-album .clarity-album_front {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: crosshair;
+}
+
+
+.clarity-album:hover > .clarity-album_front{
+  opacity: 0;
+}
+
+--
+.darkside-album {
+  position: relative;	
+	margin:   auto;
+	max-width: 450px;
+}
+
+.darkside_player{
+  display: inline-block;
+  position: relative;
+  padding-left: 500px;
+}
+
+.darkside-album img {
+  position: absolute;
+  top:1;
+  left:1;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+}
+
+
+.darkside-album .darkside-album_front {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: crosshair;
+}
+
+
+.darkside-album:hover > .darkside-album_front{
+  opacity: 0;
+}
+--
