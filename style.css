@@ -27,6 +27,7 @@ h2 {
 }
 
 a {
+  background-color: white;
   font-family: 'Montserrat Alternates', sans-serif;
   color: #b3dbff;
   cursor: pointer;
